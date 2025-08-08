@@ -1,17 +1,43 @@
+# My Life Timeline
 
-# My Life Timeline App
+##  Description
 
-## Stage 1 – Static Skeleton
+A basic personal timeline web application built using HTML and CSS as part of a foundational web development task.
 
-This is the initial skeleton of the **Timeline App**, created using semantic HTML5 structure.
+##  Features
 
-### Features in Stage 1:
+- Responsive design with Flexbox.
+- Timeline events with alert popups.
+- Dark/light theme toggle.
+- Semantic HTML5 tags used.
+- Basic modal placeholder added for future enhancement.
 
-- A `<header>` with a title/logo and a theme toggle button
-- An empty `<nav>` for future filters or navigation controls
-- A `<section id="timeline">` as a placeholder for timeline event markers
-- A `<div id="modal">` for pop-up modals (future stages)
-- Semantic layout using `<main>`, `<article>`, `<figure>`, and others
+## Structure
 
-This version focuses only on layout and does not include dynamic functionality. Future stages will implement JavaScript features and timeline interactions.
+- `index.html` – Main HTML structure.
+- `styles.css` – Responsive and styled layout.
+- `download.jpg` – Placeholder image (Goa Trip).
+- `README.md` – Project overview and description.
 
+##  Task Stages
+
+###  Stage 1: HTML
+- Semantic tags
+- Timeline content
+- Placeholder sections
+- Modal container
+
+###  Stage 2: CSS
+- Flexbox-based layout
+- Breakpoints for mobile/tablet/desktop
+- Dark mode toggle
+- Styled events and sections
+
+##  Deadlines
+
+- **Task 1 (HTML):** Aug 07, 2025
+- **Task 2 (CSS):** Aug 10, 2025
+
+---
+
+© 2025 Renuka Mahajan – Timeline Project
