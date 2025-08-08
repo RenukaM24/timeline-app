@@ -1,0 +1,184 @@
+/* General Reset */ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Dark Mode */
+body.dark-theme {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+body.dark-theme nav {
+  background-color: #1e1e1e;
+}
+
+body.dark-theme nav ul li a {
+  color: #66ccff;
+}
+
+body.dark-theme article {
+  border-left-color: #66ccff;
+}
+
+body.dark-theme article h3 {
+  color: #ff66b2;
+}
+
+body.dark-theme article p,
+body.dark-theme article strong {
+  color: #f0f0f0;
+}
+
+body.dark-theme article button {
+  background-color: #0066cc;
+  color: white;
+}
+
+body.dark-theme article button:hover {
+  background-color: #3388ff;
+}
+
+body.dark-theme footer {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #004080, #0080ff);
+  color: white;
+  padding: 10px 20px;
+}
+
+header h1 {
+  font-size: 1.8em;
+}
+
+header button {
+  padding: 5px 10px;
+  cursor: pointer;
+  border: none;
+  background: #ffffff;
+  color: #004080;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+header button:hover {
+  background-color: #e6f0ff;
+}
+
+/* Navigation */
+nav {
+  background: #ddd;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #004080;
+  font-weight: bold;
+}
+
+/* Main Sections */
+section {
+  margin-bottom: 30px;
+}
+
+section h2 {
+  margin-bottom: 10px;
+  color: #006666;
+}
+
+/* Articles (Timeline Events) */
+article {
+  border-left: 4px solid #0066cc;
+  margin: 15px 0;
+  padding-left: 15px;
+  padding-bottom: 10px;
+}
+
+article h3 {
+  color: #cc0066;
+}
+
+article p {
+  margin: 5px 0;
+}
+
+article button {
+  margin-top: 5px;
+  padding: 5px 10px;
+  background-color: #004080;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+article button:hover {
+  background-color: #0066cc;
+}
+
+/* Gallery */
+figure {
+  margin-top: 10px;
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #004080;
+  color: white;
+  margin-top: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 767px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  article {
+    padding-left: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  nav ul {
+    gap: 20px;
+  }
+}
