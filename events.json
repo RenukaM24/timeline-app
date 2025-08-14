@@ -1,0 +1,58 @@
+[
+  {
+    "year": "2016",
+    "title": "Goa Trip",
+    "description": "Visited Goa with friends. Beach fun, local food, and nightlife were amazing!",
+    "imageURL": "download.jpg",
+    "category": "Travel"
+  },
+  {
+    "year": "2018",
+    "title": "Graduation Ceremony",
+    "description": "Graduated with a degree in Computer Science. A proud moment for me and my family.",
+    "imageURL": "grad.jpg",
+    "category": "Education"
+  },
+  {
+    "year": "2019",
+    "title": "First Hackathon",
+    "description": "Participated in a 24-hour hackathon and won second place.",
+    "imageURL": "hackathon.jpg",
+    "category": "Tech"
+  },
+  {
+    "year": "2020",
+    "title": "Started Freelancing",
+    "description": "Began working as a freelance web developer during the pandemic.",
+    "imageURL": "freelance.jpg",
+    "category": "Career"
+  },
+  {
+    "year": "2021",
+    "title": "Mountain Trek",
+    "description": "Went trekking in the Himalayas with college friends. Stunning views!",
+    "imageURL": "trek.jpg",
+    "category": "Travel"
+  },
+  {
+    "year": "2023",
+    "title": "Published First Blog",
+    "description": "Started a personal tech blog to share knowledge and experiences.",
+    "imageURL": "blog.jpg",
+    "category": "Writing"
+  },
+  {
+    "year": "2025",
+    "title": "Joined New Job at TechCorp",
+    "description": "Started as a Junior Developer in the frontend team. Worked on internal tools.",
+    "imageURL": "techcorp.jpg",
+    "category": "Career"
+  },
+  {
+    "year": "2025",
+    "title": "Rakhi Celebration",
+    "description": "Celebrated Raksha Bandhan with my sister. Tied rakhi, exchanged gifts, and shared sweets.",
+    "imageURL": "rakhi.jpg",
+    "category": "Family"
+  }
+]
